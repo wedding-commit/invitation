@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <circle cx="40" cy="40" r="35" fill="none" stroke="#6B7B5F" stroke-width="2"/>
+  
+  <!-- Music notes -->
+  <path d="M 30 50 L 30 30 Q 30 25, 35 25 Q 40 25, 40 30 L 40 50" stroke="#6B7B5F" stroke-width="2" fill="none"/>
+  <ellipse cx="35" cy="50" rx="5" ry="4" fill="#6B7B5F"/>
+  
+  <path d="M 50 45 L 50 25 Q 50 20, 55 20 Q 60 20, 60 25 L 60 45" stroke="#8A9B7C" stroke-width="2" fill="none"/>
+  <ellipse cx="55" cy="45" rx="5" ry="4" fill="#8A9B7C"/>
+  
+  <!-- Music lines -->
+  <line x1="25" y1="28" x2="55" y2="28" stroke="#C9A9A6" stroke-width="1.5" opacity="0.5"/>
+  <line x1="25" y1="32" x2="55" y2="32" stroke="#C9A9A6" stroke-width="1.5" opacity="0.5"/>
+</svg>

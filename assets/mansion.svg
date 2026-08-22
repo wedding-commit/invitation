@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="mansionGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4C5B5"/>
+      <stop offset="100%" style="stop-color:#B8A98B"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main building -->
+  <rect x="100" y="120" width="200" height="140" fill="url(#mansionGrad)" stroke="#8B7D6B" stroke-width="2"/>
+  
+  <!-- Roof -->
+  <path d="M 80 120 L 200 40 L 320 120 Z" fill="#A69578" stroke="#8B7D6B" stroke-width="2"/>
+  
+  <!-- Windows -->
+  <rect x="130" y="150" width="40" height="50" fill="#F5EFE6" stroke="#8B7D6B" stroke-width="1.5"/>
+  <rect x="230" y="150" width="40" height="50" fill="#F5EFE6" stroke="#8B7D6B" stroke-width="1.5"/>
+  <rect x="130" y="220" width="40" height="50" fill="#F5EFE6" stroke="#8B7D6B" stroke-width="1.5"/>
+  <rect x="230" y="220" width="40" height="50" fill="#F5EFE6" stroke="#8B7D6B" stroke-width="1.5"/>
+  
+  <!-- Door -->
+  <rect x="175" y="200" width="50" height="60" fill="#8B7355" stroke="#6B5D4B" stroke-width="2"/>
+  <circle cx="220" cy="235" r="3" fill="#D4C5B5"/>
+  
+  <!-- Towers -->
+  <rect x="60" y="100" width="50" height="160" fill="url(#mansionGrad)" stroke="#8B7D6B" stroke-width="2"/>
+  <rect x="290" y="100" width="50" height="160" fill="url(#mansionGrad)" stroke="#8B7D6B" stroke-width="2"/>
+  
+  <!-- Tower roofs -->
+  <path d="M 50 100 L 85 60 L 120 100 Z" fill="#958465" stroke="#8B7D6B" stroke-width="2"/>
+  <path d="M 280 100 L 315 60 L 350 100 Z" fill="#958465" stroke="#8B7D6B" stroke-width="2"/>
+  
+  <!-- Tower windows -->
+  <rect x="75" y="130" width="20" height="30" fill="#F5EFE6" stroke="#8B7D6B" stroke-width="1.5"/>
+  <rect x="305" y="130" width="20" height="30" fill="#F5EFE6" stroke="#8B7D6B" stroke-width="1.5"/>
+  
+  <!-- Decorative elements -->
+  <line x1="100" y1="180" x2="300" y2="180" stroke="#A69578" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="270" rx="150" ry="20" fill="#B8C9A6" opacity="0.5"/>
+</svg>
