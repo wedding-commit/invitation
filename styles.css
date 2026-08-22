@@ -3,7 +3,7 @@
   --paper-light: #f6f2ea;
   --ink: #111a39;
   --muted: #73776b;
-  --olive: #87967b;
+  --olive: #a8a894;
   --rose: #c98f89;
   --gold: #b58937;
   --serif: 'Cormorant Garamond', Georgia, serif;
@@ -165,15 +165,15 @@ h2 em {
   object-fit: contain;
   left: 50%;
   top: 50%;
-  filter: sepia(0.16) saturate(0.82) contrast(0.93);
+  filter: sepia(0.16) saturate(0.82) contrast(0.93) brightness(1.08);
   transform: translateX(-50%) translateY(-43%) scaleX(1) scaleY(1);
 }
 
 .couple-art {
   position: absolute;
   z-index: 2;
-  width: min(48%, 245px);
-  max-height: 42vh;
+  width: min(32%, 163px);
+  max-height: 28vh;
   object-fit: contain;
   left: 50%;
   top: 59%;
@@ -544,7 +544,7 @@ address {
 .event-art {
   display: grid;
   place-items: center;
-  height: 92px;
+  height: 108px;
   padding: 2px 13px;
 }
 
@@ -559,8 +559,8 @@ address {
 }
 
 .event-art img {
-  width: 72px;
-  height: 82px;
+  width: 108px;
+  height: 123px;
   object-fit: contain;
   filter: sepia(0.04) saturate(0.88);
 }
@@ -705,8 +705,8 @@ address {
 }
 
 .gifts-art {
-  width: min(39vw, 175px);
-  height: clamp(105px, 17vh, 145px);
+  width: min(47vw, 210px);
+  height: clamp(126px, 20.4vh, 174px);
 }
 
 .transfer-page {
@@ -835,7 +835,7 @@ address {
   }
 
   .couple-art {
-    width: 56%;
+    width: 35%;
     top: 60%;
   }
 
@@ -887,13 +887,13 @@ address {
   }
 
   .event-art {
-    height: 80px;
+    height: 96px;
     padding: 1px 7px;
   }
 
   .event-art img {
-    width: 61px;
-    height: 73px;
+    width: 82px;
+    height: 92px;
   }
 
   .dress-art {
@@ -913,8 +913,8 @@ address {
   }
 
   .gifts-art {
-    width: 140px;
-    height: 115px;
+    width: 168px;
+    height: 138px;
     margin-bottom: 14px;
   }
 
